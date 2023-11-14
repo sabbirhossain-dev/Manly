@@ -1,0 +1,836 @@
+/* common css */
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+ul,
+ol{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+p{
+    margin-bottom: 0;
+}
+body{
+    background: #083045;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+/* common css */
+
+/* navbar css start */
+
+.navbar{
+    padding-top: 40px !important;
+    padding: 0;   
+}
+
+
+.navbar .navbar-item{
+    display: flex;
+}
+.navbar .navbar-item .logo{
+    margin-top: 10px;
+}
+.navbar .navbar-brand{
+    color : #fff;
+    font-size: 48px;
+    font-family: 'Inria Serif', serif;
+    font-weight: 500;
+    padding: 16px 0;
+}
+.navbar-collapse{
+    width: 995px;
+    background: #fff;
+    margin: 0 -116px 0 100px;
+    border-radius: 10px 0 0 10px;
+}
+
+
+.navbar ul{
+    background: #fff;
+    padding: 25px 15px 25px 20px;
+    margin-bottom: 0;
+    border-radius: 10px 0 0 10px;
+}
+.navbar ul li{
+    display: inline-block;
+    margin-right: 20px;
+
+}
+.navbar ul li a{
+    font-size: 16px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    color : #083045;
+    transition: .3s;
+}
+.navbar ul li a:hover{
+    color :#083045;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.navbar .nav-link{
+    font-size: 16px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    color : #083045 !important;
+    transition: .3s;
+}
+.navbar-nav .nav-link.active{
+    font-weight: 600;
+}
+.navbar .icon .icons{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    border-radius: 0;
+}
+.navbar .icon .icons li{
+    margin: 0;
+}
+
+
+
+.navbar .icon .icons .cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 30px;
+    border-radius: 10px;
+    background:  #BDA068; 
+    position: relative;
+}
+.navbar .icon .icons .cart a{
+    color:#083045;
+    font-size: 16px;
+    display: flex;
+    gap: 10px;
+    font-weight: 500;
+
+}
+.navbar .icon .icons .cart .circle{
+    height: 20px;
+    width: 20px;
+    background: red;
+    position: absolute;
+    top: -8px;
+    right: 0;
+    border-radius: 50%;
+}
+.navbar .icon .icons .cart p{
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+/* navbar style end */
+
+
+/* top part css start */
+
+#top-part{
+    padding: 100px 0;
+}
+#top-part .menubar{
+    border-radius: 8px;
+    background:  #042333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+#top-part .menubar .left .shop{
+    color: #FFF;
+    font-family: Outfit;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+}
+#top-part .menubar .menu ul{
+    display: flex;
+    gap: 10px;
+}
+#top-part .menubar .menu ul li a{
+    color: #fff;
+    font-family: Outfit;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+}
+#top-part .menubar .menu ul li p{
+    color: #fff;
+    font-family: Outfit;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+/* top part css end */
+
+
+
+
+/* blog part css start */
+
+
+#blog-part .post-part{
+    padding-bottom: 100px;
+    border-bottom: 1px solid #BDA068;
+}
+#blog-part .text .sub-title{
+    color: #BDA068;
+    font-family: Outfit;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+
+#blog-part .text .title{
+    width: 600px;
+    color: #FFF;
+    font-family: Outfit;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 50px;
+    text-transform: capitalize;
+}
+#blog-part .text .img img{
+    width: 100%;
+    padding: 60px 0;
+}
+
+
+#blog-part .text .desc1{
+    color: rgba(255, 255, 255, 0.90);
+    text-align: justify;
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+
+}
+#blog-part .text .desc2{
+    margin-left: 83px !important;
+    width: 90%;
+    background: #042333;
+    margin: 20px 0;
+    padding: 50px 50px 25px 50px;
+    position: relative;
+
+}
+
+#blog-part .text .desc2 p{
+    color:rgba(255, 255, 255, 0.90);
+    text-align: justify;
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+
+}
+#blog-part .text .desc2 img{
+    position: absolute;
+    top: 25px;
+    left: 13px;
+    width: 35px;
+    height: 25px;
+}
+
+#blog-part .text .desc3{
+    color: rgba(255, 255, 255, 0.90);
+    text-align: justify;
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+#blog-part .text .buttons{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+#blog-part .text .buttons .tag{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+#blog-part .text .buttons .tag p{
+    color:  #FFF;
+    font-family: Outfit;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+}
+#blog-part .text .buttons .tag ul{
+    display: flex;
+    gap: 20px;
+}
+
+#blog-part .text .buttons .tag ul li a{
+    color:#FFF;
+    text-align: center;
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    border: 1px solid #BDA068;
+    border-radius: 10px;
+    padding: 10px 20px;
+    transition: .3s;
+}
+#blog-part .text .buttons .tag ul li:hover a{
+    border-radius: 2px;
+    background: #BDA068;
+}
+
+#blog-part .text .buttons .share{
+    display: flex;
+    gap: 20px;
+}
+#blog-part .text .buttons .share p{
+    color:  #FFF;
+    font-family: Outfit;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+}
+#blog-part .text .buttons .share ul{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#blog-part .text .buttons .share ul li{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background: #BDA068;
+    position: relative;
+}
+#blog-part .text .buttons .share ul li i{
+    color: #083045;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: .3s;
+}
+
+#blog-part .text .buttons .share ul li i:hover{
+    color: #fff;
+}
+
+#blog-part .right{
+    border: 1px solid #BDA068;
+    border-radius: 10px;
+    padding: 15px;
+    height: 100%;
+}
+
+
+
+
+#blog-part .right  .search-box{
+    position: relative;
+    padding-bottom: 60px;
+}
+#blog-part .right input{
+    background: transparent;
+    border: none;
+    outline: 0;
+    border-bottom: 1px solid #BDA068;
+    padding-bottom:5px ;
+    color: rgba(255, 255, 255, 0.90);
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+#blog-part .right input::placeholder{
+    color: rgba(255, 255, 255, 0.90);
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    opacity: .9;
+}
+#blog-part .right a i{
+    width: 100%;
+    color: rgba(255, 255, 255, 0.90);
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight:lighter;
+    position: absolute;
+    top: 0;
+    /* right: 0; */
+    opacity: .8;
+}
+
+#blog-part .right .catagory{
+    color:  #FFF;
+    font-family: Outfit;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    border-bottom: 1px solid #BDA068;
+    padding-bottom: 7px;
+}
+
+#blog-part .right ul{
+    padding: 50px 0 60px 0;
+    
+}
+#blog-part .right ul .item{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+#blog-part .right ul li{
+    color:rgba(255, 255, 255, 0.90);
+    font-family: Outfit;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    margin-left: 10px;
+}
+#blog-part .right ul .dot{
+    height: 18px;
+    width: 18px;
+    border: 1px solid #BDA068;
+    border-radius: 50%;
+    background: transparent;
+}
+
+
+#blog-part .right .recent-post .recent{
+    color:  #FFF;
+    font-family: Outfit;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    border-bottom: 1px solid #BDA068;
+    padding-bottom: 7px;
+    margin-bottom: 30px;
+}
+
+#blog-part .right .recent-post .post{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 10px;
+    padding-top: 20px;
+}
+
+#blog-part .right .recent-post .post .img{
+    flex-basis: 45%;
+}
+
+#blog-part .right .recent-post .post .img img{
+    width: 100%;
+}
+
+#blog-part .right .recent-post .post .text{
+    flex-basis: 55%;
+}
+
+#blog-part .right .recent-post .post .text p{
+    color:  rgba(255, 255, 255, 0.90);
+    font-family: Outfit;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    padding-bottom: 5px;
+}
+
+#blog-part .right .insta-post .insta{
+    color:  #FFF;
+    font-family: Outfit;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    border-bottom: 1px solid #BDA068;
+    padding-bottom: 7px;
+    margin: 60px 0 50px 0;
+}
+#blog-part .right .insta-post .post{
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 13px;
+}
+#blog-part .right .insta-post .img{
+    flex-basis: 47%;
+}
+#blog-part .right .insta-post .img img{
+    width: 100%;
+}
+
+
+
+#blog-part .comments .comment{
+    color: #FFF;
+    font-family: Outfit;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    padding-bottom: 60px;
+}
+
+#blog-part .comments .comment-item{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+#blog-part .comments .comment-item .text{
+    border: 1px solid #BDA068;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+#blog-part .comments .comment-item .text .title{
+    color: #FFF;
+    font-family: Outfit;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+#blog-part .comments .comment-item .text .sub-title{
+    color: #BDA068;
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    padding: 10px 0;
+}
+
+#blog-part .comments .comment-item .text .desc{
+    color: #FFF;
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+#blog-part .comments .comment-item .text .button a{
+    color:  #083045;
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    background: #BDA068;
+    padding: 10px;
+    border-radius: 10px;
+    transition: .3s;
+}
+#blog-part .comments .comment-item .text .button a:hover{
+    background: #e0ceab;
+    border-radius: 2px;
+}
+
+
+#blog-part .reply-part{
+    padding: 60px 0 90px 0;
+}
+
+#blog-part .reply-part .reply{
+    color: #FFF;
+    font-family: Outfit;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+}
+#blog-part .reply-part .desc{
+    color:  #FFF;
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    padding: 20px 0;
+    }
+
+#blog-part .reply-part .comment-field p{
+    color: #FFF;
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+
+#blog-part .reply-part .comment-field input{
+    border: 1px solid #BDA068;
+    height: 120px;
+    width: 100%;
+    border-radius: 10px;
+    outline: none;
+    padding: 10px;
+    background: transparent;
+}
+
+#blog-part .reply-part .form-group{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px 0 30px 0;
+
+}
+
+#blog-part .reply-part .form-group .form-field{
+    width: 50%;
+}
+
+#blog-part .reply-part .form-group .form-field p{
+    color: #FFF;
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+#blog-part .reply-part .form-group .form-field span{
+    color: red;
+}
+
+#blog-part .reply-part .form-group .form-field input{
+    width: 100%;
+    height: 70px;
+    background: transparent;
+    border: 1px solid #BDA068;
+    border-radius: 10px;
+    outline: none;
+}
+
+#blog-part .reply-part button{
+    background: none;
+    border: none;
+    outline: none;
+}
+#blog-part .reply-part button a{
+    color: #083045;
+    text-align: center;
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    padding: 10px 20px;
+    background: #BDA068;
+    border-radius: 10px;
+    transition: .3s;
+}
+
+#blog-part .reply-part button a:hover{
+    background: #e0ceab;
+    border-radius: 2px;
+}
+
+
+/* blog part css end */
+
+
+
+
+
+
+
+/* common css */
+
+
+
+/* contact style start */
+
+#contact{
+    background: #042333;
+    padding: 100px 0;
+    color : #fff;
+}
+
+#contact .left .logo{
+    color: #FFF;
+    font-family: Inria Serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+}
+#contact .left .desc{
+    width: 305px;
+    color:rgba(255, 255, 255, 0.90);
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; 
+    padding: 20px 0;
+}
+#contact .left .number{
+    color: rgba(255, 255, 255, 0.90);
+    font-family: Outfit;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; 
+    padding-bottom: 20px;
+}
+
+#contact .social ul{
+    display: flex;
+    gap: 20px;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+#contact .social ul li{
+    width: 40px;
+    height: 40px;
+    background: #BDA068;
+    border-radius: 50%;
+    position: relative;
+    cursor: pointer;
+}
+#contact .social ul li a{
+    color : #042333;
+    font-size: 18px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: .3s;
+    
+}
+
+#contact .social ul li:hover a{
+    color: #fff;
+}
+
+#contact .middle{
+    display: flex;
+    gap: 100px;
+    padding: 0 20px;
+}
+#contact .middle ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-shrink: 0;
+    padding-left: 0;
+}
+#contact .middle ul li{
+    margin-bottom: 10px;
+}
+#contact .middle ul li a{
+    color: #FFF;
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    transition: .3s;
+}
+#contact .middle ul li:hover a{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+#contact .right .newsletter{
+    color: #FFF;
+    font-family: Outfit;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+}
+#contact .right .desc{
+    color:  rgba(255, 255, 255, 0.90);
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; 
+    padding: 20px 0;
+}
+#contact .right .input-field{
+    position: relative;
+}
+#contact .right input{
+    height: 50px;
+    width: 100%;
+    padding: 15px;
+    background: transparent;
+    border: 1px solid #BDA068;
+    color : #fff;
+    border-radius: 25px;
+    outline: none;
+    position: relative;
+    transition: .3s;
+}
+#contact .right input:hover{
+    border-radius: 5px;
+}
+#contact .right button{
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    transform: translateY(-50%);
+    border: none;
+    background: #BDA068;
+    border-radius: 50%; 
+    transition: .3s;
+}
+#contact .right button:hover{
+    background: #e0ceab;
+}
+#contact .right button i{
+    padding: 13px;
+    transition: .3s;
+}
+#contact .right button:hover i{
+    padding: 11px;
+}
+
+
+
+/* contact style end */
+
+
+/* footer style start */
+
+#footer .footer-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#footer .footer-text .text{
+    color: rgba(255, 255, 255, 0.90);
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; 
+    margin-bottom: 0;
+    padding: 20px 0;
+}
+
+/* footer style end */

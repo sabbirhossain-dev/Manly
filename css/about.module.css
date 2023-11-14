@@ -1,0 +1,629 @@
+/* common css */
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+ul,
+ol{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+p{
+    margin-bottom: 0;
+}
+body{
+    background: #083045;
+    scroll-behavior: smooth;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+/* common css */
+
+/* navbar css start */
+
+.navbar{
+    padding-top: 40px !important;
+    padding: 0;   
+}
+
+
+.navbar .navbar-item{
+    display: flex;
+}
+.navbar .navbar-item .logo{
+    margin-top: 10px;
+}
+.navbar .navbar-brand{
+    color : #fff;
+    font-size: 48px;
+    font-family: 'Inria Serif', serif;
+    font-weight: 500;
+    padding: 16px 0;
+}
+.navbar-collapse{
+    width: 995px;
+    background: #fff;
+    margin: 0 -116px 0 100px;
+    border-radius: 10px 0 0 10px;
+}
+
+
+.navbar ul{
+    background: #fff;
+    padding: 25px 15px 25px 20px;
+    margin-bottom: 0;
+    border-radius: 10px 0 0 10px;
+}
+.navbar ul li{
+    display: inline-block;
+    margin-right: 20px;
+
+}
+.navbar ul li a{
+    font-size: 16px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    color : #083045;
+    transition: .3s;
+}
+.navbar ul li a:hover{
+    color :#083045;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.navbar .nav-link{
+    font-size: 16px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    color : #083045 !important;
+    transition: .3s;
+}
+.navbar-nav .nav-link.active{
+    font-weight: 600;
+}
+
+.navbar .icon .icons{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    border-radius: 0;
+}
+.navbar .icon .icons li{
+    margin: 0;
+}
+
+
+
+.navbar .icon .icons .cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 30px;
+    border-radius: 10px;
+    background:  #BDA068; 
+    position: relative;
+}
+.navbar .icon .icons .cart a{
+    color:#083045;
+    font-size: 16px;
+    display: flex;
+    gap: 10px;
+    font-weight: 500;
+
+}
+.navbar .icon .icons .cart .circle{
+    height: 20px;
+    width: 20px;
+    background: red;
+    position: absolute;
+    top: -8px;
+    right: 0;
+    border-radius: 50%;
+}
+.navbar .icon .icons .cart p{
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+/* navbar style end */
+
+
+/* top part css start */
+
+#top-part{
+    padding: 100px 0;
+}
+#top-part .menubar{
+    border-radius: 8px;
+    background:  #042333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+#top-part .menubar .left .shop{
+    color: #FFF;
+    font-family: Outfit;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+}
+#top-part .menubar .menu ul{
+    display: flex;
+    gap: 10px;
+}
+#top-part .menubar .menu ul li a{
+    color: #fff;
+    font-family: Outfit;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+}
+#top-part .menubar .menu ul li p{
+    color: #fff;
+    font-family: Outfit;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+/* top part css end */
+
+
+
+
+
+/* about part css start */
+
+
+
+/* store part css start */
+
+#about-store .store{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+#about-store .store .text{
+    padding: 40px 0 60px 0;
+    flex-basis: 50%;
+}
+#about-store .store .text .title{
+    color: #FFF;
+    font-family: Outfit;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+#about-store .store .text .desc{
+    color: rgba(255, 255, 255, 0.90);
+    font-family: Outfit;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    padding: 10px 0 40px 0;
+}
+#about-store .store .text .desc-two{
+    color: rgba(255, 255, 255, 0.90);
+    text-align: justify;
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+#about-store .store .img{
+    flex-basis: 50%;
+}
+#about-store .store .img img{
+    width: 100%;
+}
+
+/* store part css end */
+
+
+
+/* service part css start */
+
+#service-part .service{
+    text-align: center;
+    padding: 100px 0;
+}
+
+#service-part .service .title{
+    color: #FFF;
+    font-family: Outfit;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding-bottom: 10px;
+}
+#service-part .service .sub-title{
+    color: #FFF;
+    font-family: Outfit;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+#service-part .service .service-type{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+}
+#service-part .service .service-type .free-shipping{
+    width: 30%;
+}
+#service-part .service .service-type .free-shipping .title{
+    color: #FFF;
+    font-family: Outfit;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    padding: 20px 0;
+}
+#service-part .service .service-type .free-shipping .desc{
+    color:rgba(255, 255, 255, 0.90);
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+/* service part css end */
+
+
+
+/* discover part css start */
+
+#discover-part{
+    background: #BDA068;
+    padding: 100px 0;
+}
+#discover-part .discover{
+    text-align: center;
+    width: 605px;
+    margin: 0 auto;
+}
+#discover-part .discover .title{
+    color: #042333;
+    font-family: Outfit;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+#discover-part .discover .desc{
+    color: #263D48;
+    font-family: Outfit;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    padding: 20px 0;
+}
+
+#discover-part .discover button{
+    border: none;
+    border-radius: 10px;
+    background:#083045;
+    padding: 16px 30px;
+    transition: .3s;
+}
+#discover-part .discover button:hover{
+    background: #042333;
+    border-radius: 2px;
+}
+#discover-part .discover button a{
+    color: #FFF;
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+/* discover part css end */
+
+
+/* testimonial css start */
+
+
+#testimonial{
+    padding: 100px;
+}
+#testimonial .images {
+    position: relative;
+}
+#testimonial .images .img img{
+    width: 100%;
+}
+#testimonial .images .img2{
+    width: 300px;
+    height: 260px;
+    position: absolute;
+    top: 50%;
+    right: -55%;
+    transform: translate(-50%,-50%);
+}
+#testimonial .images .img2 img{
+   width: 100%;
+}
+
+#testimonial .text{
+    padding: 105px 20px 20px 206px;
+    position: relative;
+}
+
+#testimonial .text img{
+    position: absolute;
+    top:83px;
+    left: 150px;
+}
+#testimonial .text .title{
+    color:  #FFF;
+    font-family: Outfit;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+#testimonial .text .desc{
+    color: rgba(255, 255, 255, 0.90);
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    padding-bottom: 10px;
+}
+#testimonial .text .name{
+    color: #BDA068;
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px;
+}
+#testimonial .text span{
+    color : #fff;
+}
+
+
+/* testimonial css end */
+
+
+
+/* partner css start */
+
+#partner-part .partner {
+    text-align: center;
+    padding-bottom: 100px;
+}
+#partner-part .partner .title{
+    color: #FFF;
+    font-family: Outfit;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 500;
+    text-transform: capitalize;
+    padding-bottom: 10px;
+}
+#partner-part .partner .sub-title{
+    color: #FFF;
+    font-family: Outfit;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+#partner-part .partner .partners{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+}
+
+
+
+/* partner css end */
+
+
+
+/* about part css end */
+
+
+
+
+
+
+
+
+/* common css */
+
+/* contact style start */
+
+#contact{
+    background: #042333;
+    padding: 100px 0;
+    color : #fff;
+}
+
+#contact .left .logo{
+    color: #FFF;
+    font-family: Inria Serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+}
+#contact .left .desc{
+    width: 305px;
+    color:rgba(255, 255, 255, 0.90);
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; 
+    padding: 20px 0;
+}
+#contact .left .number{
+    color: rgba(255, 255, 255, 0.90);
+    font-family: Outfit;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; 
+    padding-bottom: 20px;
+}
+
+#contact .social ul{
+    display: flex;
+    gap: 20px;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+#contact .social ul li{
+    width: 40px;
+    height: 40px;
+    background: #BDA068;
+    border-radius: 50%;
+    position: relative;
+    cursor: pointer;
+}
+#contact .social ul li a{
+    color : #042333;
+    font-size: 18px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: .3s;
+    
+}
+
+#contact .social ul li:hover a{
+    color: #fff;
+}
+
+#contact .middle{
+    display: flex;
+    gap: 100px;
+    padding: 0 20px;
+}
+#contact .middle ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-shrink: 0;
+    padding-left: 0;
+}
+#contact .middle ul li{
+    margin-bottom: 10px;
+}
+#contact .middle ul li a{
+    color: #FFF;
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    transition: .3s;
+}
+#contact .middle ul li:hover a{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+#contact .right .newsletter{
+    color: #FFF;
+    font-family: Outfit;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+}
+#contact .right .desc{
+    color:  rgba(255, 255, 255, 0.90);
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; 
+    padding: 20px 0;
+}
+#contact .right .input-field{
+    position: relative;
+}
+#contact .right input{
+    height: 50px;
+    width: 100%;
+    padding: 15px;
+    background: transparent;
+    border: 1px solid #BDA068;
+    color : #fff;
+    border-radius: 25px;
+    outline: none;
+    position: relative;
+    transition: .3s;
+}
+#contact .right input:hover{
+    border-radius: 5px;
+}
+#contact .right button{
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    transform: translateY(-50%);
+    border: none;
+    background: #BDA068;
+    border-radius: 50%; 
+    transition: .3s;
+}
+#contact .right button:hover{
+    background: #e0ceab;
+}
+#contact .right button i{
+    padding: 13px;
+    transition: .3s;
+}
+#contact .right button:hover i{
+    padding: 11px;
+}
+
+
+
+/* contact style end */
+
+
+/* footer style start */
+
+#footer .footer-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#footer .footer-text .text{
+    color: rgba(255, 255, 255, 0.90);
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; 
+    margin-bottom: 0;
+    padding: 20px 0;
+}
+
+/* footer style end */

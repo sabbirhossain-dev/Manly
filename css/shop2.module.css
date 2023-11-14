@@ -1,0 +1,829 @@
+/* common css */
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+ul,
+ol{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+p{
+    margin-bottom: 0;
+}
+body{
+    background: #083045;
+    scroll-behavior: smooth;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+/* common css */
+
+/* navbar css start */
+
+.navbar{
+    padding-top: 40px !important;
+    padding: 0;   
+}
+
+
+.navbar .navbar-item{
+    display: flex;
+}
+.navbar .navbar-item .logo{
+    margin-top: 10px;
+}
+.navbar .navbar-brand{
+    color : #fff;
+    font-size: 48px;
+    font-family: 'Inria Serif', serif;
+    font-weight: 500;
+    padding: 16px 0;
+}
+.navbar-collapse{
+    width: 995px;
+    background: #fff;
+    margin: 0 -116px 0 100px;
+    border-radius: 10px 0 0 10px;
+}
+
+
+.navbar ul{
+    background: #fff;
+    padding: 25px 15px 25px 20px;
+    margin-bottom: 0;
+    border-radius: 10px 0 0 10px;
+}
+.navbar ul li{
+    display: inline-block;
+    margin-right: 20px;
+
+}
+.navbar ul li a{
+    font-size: 16px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    color : #083045;
+    transition: .3s;
+}
+.navbar ul li a:hover{
+    color :#083045;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.navbar .nav-link{
+    font-size: 16px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    color : #083045 !important;
+    transition: .3s;
+}
+.navbar-nav .nav-link.active{
+    font-weight: 600;
+}
+.navbar .icon .icons{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    border-radius: 0;
+}
+.navbar .icon .icons li{
+    margin: 0;
+}
+
+
+
+.navbar .icon .icons .cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 30px;
+    border-radius: 10px;
+    background:  #BDA068; 
+    position: relative;
+}
+.navbar .icon .icons .cart a{
+    color:#083045;
+    font-size: 16px;
+    display: flex;
+    gap: 10px;
+    font-weight: 500;
+
+}
+.navbar .icon .icons .cart .circle{
+    height: 20px;
+    width: 20px;
+    background: red;
+    position: absolute;
+    top: -8px;
+    right: 0;
+    border-radius: 50%;
+}
+.navbar .icon .icons .cart p{
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+/* navbar style end */
+
+
+/* top part css start */
+
+#top-part{
+    padding: 100px 0;
+}
+#top-part .menubar{
+    border-radius: 8px;
+    background:  #042333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+#top-part .menubar .left .shop{
+    color: #FFF;
+    font-family: Outfit;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+}
+#top-part .menubar .menu ul{
+    display: flex;
+    gap: 10px;
+}
+#top-part .menubar .menu ul li a{
+    color: #fff;
+    font-family: Outfit;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+}
+#top-part .menubar .menu ul li p{
+    color: #fff;
+    font-family: Outfit;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+/* top part css end */
+
+
+/* catagory css start */
+
+#products-part{
+    padding-bottom: 200px;
+}
+#products-part .catagory-items{
+    border: 1px solid #BDA068;
+    height: 100%;
+    padding: 20px;
+    border-radius: 10px;
+}
+#products-part .catagory-items .catagory{
+    color:  #FFF;
+    font-family: Outfit;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    border-bottom: 1px solid #BDA068;
+    padding-bottom: 7px;
+}
+
+#products-part .catagory-items ul{
+    padding: 30px 0 60px 0;
+    
+}
+#products-part .catagory-items ul .item{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+#products-part .catagory-items ul li{
+    color:rgba(255, 255, 255, 0.90);
+    font-family: Outfit;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    margin-left: 10px;
+}
+#products-part .catagory-items ul .dot{
+    height: 18px;
+    width: 18px;
+    border: 1px solid #BDA068;
+    border-radius: 50%;
+    background: transparent;
+}
+
+#products-part .filter{
+    padding-bottom: 10px;
+}
+#products-part .filter .filter-text{
+    color:  #FFF;
+    font-family: Outfit;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    border-bottom: 1px solid #BDA068;
+    padding-bottom: 7px;
+}
+#products-part .filter .dots{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0 10px 0;
+    margin-bottom: 10px;
+    position: relative;
+}
+#products-part .filter .dots .dot::after{
+    width: 84%;
+    height: 2px;
+    background: #BDA068;
+    content: "";
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#products-part .filter .dots .dot{
+    height: 18px;
+    width: 18px;
+    border: 1px solid #BDA068;
+    border-radius: 50%;
+    background: transparent;
+}
+#products-part .filter .filter-btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#products-part .filter .filter-btn button{
+    border: none;
+    background: none;
+    
+}
+#products-part .filter .filter-btn button a{
+    color:  #083045;
+    background: #BDA068;
+    border-radius: 10px;
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    padding: 10px 30px;
+    transition: .3s;
+}
+#products-part .filter .filter-btn button a:hover{
+    background: #e0ceab;
+    border-radius: 2px;
+}
+#products-part .filter .filter-btn .price{
+    color: #FFF;
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+
+#products-part .select {
+    padding: 60px 0 0 0;
+}
+#products-part .select .select-text{
+    color:  #FFF;
+    font-family: Outfit;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    border-bottom: 1px solid #BDA068;
+    padding-bottom: 7px;
+}
+
+#products-part .select ul{
+    padding: 30px 0 60px 0;
+    
+}
+#products-part .select ul .item{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+#products-part .select ul li{
+    color:rgba(255, 255, 255, 0.90);
+    font-family: Outfit;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    margin-left: 10px;
+}
+#products-part .select ul .dot{
+    height: 18px;
+    width: 18px;
+    border: 1px solid #BDA068;
+    border-radius: 50%;
+    background: transparent;
+}
+
+
+
+#products-part .manufact .text{
+    color:  #FFF;
+    font-family: Outfit;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    border-bottom: 1px solid #BDA068;
+    padding-bottom: 7px;
+}
+
+#products-part .manufact ul{
+    padding: 30px 0 60px 0;
+    
+}
+#products-part .manufact ul .item{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+#products-part .manufact ul li{
+    color:rgba(255, 255, 255, 0.90);
+    font-family: Outfit;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    margin-left: 10px;
+}
+#products-part .manufact ul .dot{
+    height: 18px;
+    width: 18px;
+    border: 1px solid #BDA068;
+    border-radius: 50%;
+    background: transparent;
+}
+
+
+
+
+#products-part .products .text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 60px;
+}
+
+#products-part .products .text .search-box{
+    position: relative;
+}
+#products-part .products .text input{
+    background: transparent;
+    border: none;
+    outline: 0;
+    border-bottom: 1px solid #BDA068;
+    padding-bottom:5px ;
+    padding-right: 25px;
+    color: rgba(255, 255, 255, 0.90);
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+#products-part .products .text input::placeholder{
+    color: rgba(255, 255, 255, 0.90);
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    opacity: .9;
+}
+#products-part .products .text a{
+    color: rgba(255, 255, 255, 0.90);
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight:lighter;
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: .8;
+}
+
+
+#products-part .products .default {
+    display: flex;
+    align-items: center;
+}
+#products-part .products .default .default-text{
+    color: #FFF;
+    text-align: center;
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+}
+#products-part .products .default span{
+    margin-left: 5px;
+}
+
+#products-part .products .showing-text{
+    color: #FFF;
+    text-align: center;
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+
+#products-part .products .products-item{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+#products-part .products .products-item .card{
+    background: transparent;
+    border: 1px solid #BDA068;
+    padding: 25px 20px;
+    transition: .3s;
+}
+
+#products-part .products .card img{
+    width: 100%;
+    height: 100%;
+}
+#products-part .products .card:hover{
+    background: #082637;
+}
+
+#products-part .products .card .title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+    color: #FFF;
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    padding-bottom: 10px;
+}
+#products-part .products .card .title p{
+    margin-bottom: 0;
+}
+
+#products-part .products .card .heading{
+    color: var(--text-color, #FFF);
+    font-family: Outfit;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px;
+}
+#products-part .products .card .desc{
+    color:rgba(255, 255, 255, 0.90);
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    padding: 10px 0;
+}
+#products-part .products .card .colors{
+    display: flex;
+    align-items: center;
+    align-self: stretch;
+    padding-bottom: 10px;
+}
+#products-part .products .card .colors p{
+    color: #FFF;
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    margin-right: 20px;
+}
+#products-part .products .card .colors ul li{
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#products-part .products .card .colors ul .black{
+    background: black;
+}
+#products-part .products .card .colors ul .white{
+    background: #fff;
+}
+#products-part .products .card .colors ul .red{
+    background: rgb(201, 21, 21);
+}
+#products-part .products .card .colors ul .pink{
+    background: rgb(184, 27, 118);
+}
+#products-part .products .card .colors ul .baby-pink{
+    background: rgb(234, 153, 153);
+}
+#products-part .products .card .colors ul .maroon{
+    background: rgb(69, 35, 35);
+}
+#products-part .products .card .colors ul .blue{
+    background: rgb(21, 51, 187);
+}
+#products-part .products .card .colors ul .green{
+    background: rgb(28, 219, 41);
+}
+#products-part .products .card .colors ul .dark-maroon{
+    background: rgb(72, 1, 1)
+}
+#products-part .products .card .colors ul .gray{
+    background: rgb(51, 84, 102)
+}
+#products-part .products .card .colors ul .yellow{
+    background: rgb(235, 209, 39)
+}
+
+
+
+#products-part .products .card .price{
+    color: #FFF;
+    font-family: Outfit;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px;
+    padding-bottom: 20px;
+}
+#products-part .products .card .price span{
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 5px;
+}
+
+#products-part .products .card button{
+    color: #083045;
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px;
+    background: #BDA068;
+    text-align: center;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    transition: .3s;
+}
+#products-part .products .card button span{
+    margin-left: 10px;
+}
+
+#products-part .products .card button:hover{
+    background: #e0ceab;
+    border-radius: 2px;
+}
+
+
+#products-part .products .numbers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+#products-part .products .numbers ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border: 1px solid #BDA068;
+    padding: 13px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,0);
+    margin-top: 70px;
+
+
+}
+#products-part .products .numbers ul li a{
+    color:  #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    transition: .3s ease all;
+}
+#products-part .products .numbers ul li:hover a{
+    font-weight: 600;
+}
+#products-part .products .numbers ul li i{
+    font-size: 20px;
+}
+
+
+
+/* catagory css end */
+
+
+
+
+
+
+
+
+
+/* common css */
+
+
+
+/* contact style start */
+
+#contact{
+    background: #042333;
+    padding: 100px 0;
+    color : #fff;
+}
+
+#contact .left .logo{
+    color: #FFF;
+    font-family: Inria Serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+}
+#contact .left .desc{
+    width: 305px;
+    color:rgba(255, 255, 255, 0.90);
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; 
+    padding: 20px 0;
+}
+#contact .left .number{
+    color: rgba(255, 255, 255, 0.90);
+    font-family: Outfit;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; 
+    padding-bottom: 20px;
+}
+
+#contact .social ul{
+    display: flex;
+    gap: 20px;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+#contact .social ul li{
+    width: 40px;
+    height: 40px;
+    background: #BDA068;
+    border-radius: 50%;
+    position: relative;
+    cursor: pointer;
+}
+#contact .social ul li a{
+    color : #042333;
+    font-size: 18px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: .3s;
+    
+}
+
+#contact .social ul li:hover a{
+    color: #fff;
+}
+
+#contact .middle{
+    display: flex;
+    gap: 100px;
+    padding: 0 20px;
+}
+#contact .middle ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-shrink: 0;
+    padding-left: 0;
+}
+#contact .middle ul li{
+    margin-bottom: 10px;
+}
+#contact .middle ul li a{
+    color: #FFF;
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    transition: .3s;
+}
+#contact .middle ul li:hover a{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+#contact .right .newsletter{
+    color: #FFF;
+    font-family: Outfit;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+}
+#contact .right .desc{
+    color:  rgba(255, 255, 255, 0.90);
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; 
+    padding: 20px 0;
+}
+#contact .right .input-field{
+    position: relative;
+}
+#contact .right input{
+    height: 50px;
+    width: 100%;
+    padding: 15px;
+    background: transparent;
+    border: 1px solid #BDA068;
+    color : #fff;
+    border-radius: 25px;
+    outline: none;
+    position: relative;
+    transition: .3s;
+}
+#contact .right input:hover{
+    border-radius: 5px;
+}
+#contact .right button{
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    transform: translateY(-50%);
+    border: none;
+    background: #BDA068;
+    border-radius: 50%; 
+    transition: .3s;
+}
+#contact .right button:hover{
+    background: #e0ceab;
+}
+#contact .right button i{
+    padding: 13px;
+    transition: .3s;
+}
+#contact .right button:hover i{
+    padding: 11px;
+}
+
+
+
+/* contact style end */
+
+
+/* footer style start */
+
+#footer .footer-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#footer .footer-text .text{
+    color: rgba(255, 255, 255, 0.90);
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; 
+    margin-bottom: 0;
+    padding: 20px 0;
+}
+
+/* footer style end */
